@@ -45,4 +45,9 @@ public class TrollDecorator implements Troll {
   public int getAttackPower() {
     return decorated.getAttackPower();
   }
+  
+  @Override
+  public void fleeBattle() {
+    return decorated.fleeBattle();
+  }
 }
