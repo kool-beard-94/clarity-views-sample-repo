@@ -33,6 +33,4 @@ public interface Troll {
 
   int getAttackPower();
 
-  void fleeBattle();
-
 }
