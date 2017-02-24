@@ -30,8 +30,6 @@ import org.slf4j.LoggerFactory;
  */
 public class ClubbedTroll extends TrollDecorator {
 
-  private static final Logger LOGGER = LoggerFactory.getLogger(ClubbedTroll.class);
-
   public ClubbedTroll(Troll decorated) {
     super(decorated);
   }
