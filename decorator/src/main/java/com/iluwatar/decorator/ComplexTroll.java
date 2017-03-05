@@ -30,9 +30,7 @@ import org.slf4j.LoggerFactory;
  * SimpleTroll implements {@link Troll} interface directly.
  *
  */
-public class SimpleTroll implements Troll {
-
-  private static final Logger LOGGER = LoggerFactory.getLogger(SimpleTroll.class);
+public class Complex implements Troll {
 
   @Override
   public void attack() {
