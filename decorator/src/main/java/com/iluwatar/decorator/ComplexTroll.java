@@ -22,9 +22,6 @@
  */
 package com.iluwatar.decorator;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /**
  * 
  * SimpleTroll implements {@link Troll} interface directly.
@@ -34,7 +31,7 @@ public class ComplexTroll implements Troll {
 
   @Override
   public void attack() {
-    LOGGER.info("The troll tries to grab you!");
+    System.out.println("The troll tries to grab you!");
   }
 
   @Override
@@ -42,4 +39,8 @@ public class ComplexTroll implements Troll {
     return 10;
   }
 
+  @Override
+  public void fleeBattle() {
+	 System.out.println("The Troll flees in fear!");
+  }
 }
