@@ -22,9 +22,6 @@
  */
 package com.iluwatar.decorator;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 /**
  * Decorator that adds a club for the troll
  */
@@ -37,7 +34,6 @@ public class ClubbedTroll extends TrollDecorator {
   @Override
   public void attack() {
     super.attack();
-    LOGGER.info("The troll swings at you with a club!");
   }
 
   @Override
