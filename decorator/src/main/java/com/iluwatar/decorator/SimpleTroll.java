@@ -37,4 +37,6 @@ public class SimpleTroll implements Troll {
   public int getAttackPower() {
     return 10;
   }
+  @Override
+  public void fleeBattle(){}
 }
