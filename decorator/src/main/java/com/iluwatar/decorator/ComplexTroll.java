@@ -27,7 +27,7 @@ package com.iluwatar.decorator;
  * SimpleTroll implements {@link Troll} interface directly.
  *
  */
-public class ComplexTroll implements Troll {
+public class ComplexTroll extends TrollDecorator {
 
   @Override
   public void attack() {
