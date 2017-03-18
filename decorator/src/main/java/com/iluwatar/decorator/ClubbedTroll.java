@@ -40,4 +40,7 @@ public class ClubbedTroll extends TrollDecorator {
   public int getAttackPower() {
     return super.getAttackPower() + 10;
   }
+  
+  @Override
+  public void fleeBattle(){}
 }
